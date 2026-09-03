@@ -36,7 +36,6 @@ class MechanicAdapter(
             binding.mechanicName.text = mechanic.name
             binding.mechanicRating.text = mechanic.rating
             binding.mechanicLocation.text = mechanic.location
-            binding.statusTag.text = mechanic.status
 
             binding.root.setOnClickListener {
                 onMechanicClicked(mechanic)
