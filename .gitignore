@@ -1,0 +1,44 @@
+# IDE - IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build
+.gradle/
+build/
+bin/
+gen/
+out/
+.kotlin/
+.externalNativeBuild/
+.cxx/
+cmake-build-*/
+
+# Android
+local.properties
+captures/
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+*.jks
+secrets.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+.artifacts/
+opencode.jsonc
+AGENTS.md
+
+# Logs
+*.log
+*.hprof
+
+# Keep Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
