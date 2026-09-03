@@ -4,6 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -38,6 +41,17 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // True edge-to-edge: content draws behind transparent status bar,
+        // but add top padding = status bar height + margin so header is
+        // never overlapped. Padding on inner container (not scroll view)
+        // preserves scroll-behind effect.
+        ViewCompat.setOnApplyWindowInsetsListener(binding.nestedScroll) { _, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            binding.contentContainer.updatePadding(top = systemBars.top)
+            insets
+        }
+
         mechanicAdapter = MechanicAdapter(
             onMechanicClicked = { mechanic -> onMechanicClicked(mechanic) },
             onRequestClicked = { mechanic -> onRequestClicked(mechanic) }

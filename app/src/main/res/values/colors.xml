@@ -13,6 +13,8 @@
     <color name="primary_variant">#E66D00</color>
     <color name="bg_light_orange">#FFF3E0</color>
     <color name="bg_screen">#FAFAFA</color>
+    <color name="bg_screen_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
     <color name="text_gray">#757575</color>
     <color name="text_gray_light">#BDBDBD</color>
     <color name="tag_bg">#FFF3E0</color>
