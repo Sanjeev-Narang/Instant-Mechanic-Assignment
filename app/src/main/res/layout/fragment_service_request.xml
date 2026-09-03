@@ -85,8 +85,10 @@
                     app:boxCornerRadiusBottomStart="12dp"
                     app:boxCornerRadiusTopEnd="12dp"
                     app:boxCornerRadiusTopStart="12dp"
-                    app:boxStrokeColor="@color/primary_orange"
-                    app:hintTextColor="@color/primary_orange">
+                    app:boxStrokeColor="@color/input_box_stroke"
+                    app:hintAnimationEnabled="false"
+                    app:hintTextColor="@color/input_hint_color"
+                    android:textColorHint="@color/text_gray">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/et_customer_name"
@@ -96,7 +98,7 @@
                         android:minHeight="56dp"
                         android:paddingHorizontal="16dp"
                         android:textColor="@color/black"
-                        android:textColorHint="@color/text_gray_light"
+                        android:textColorHint="@color/text_gray"
                         android:textSize="16sp"
                         tools:text="John Doe" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -113,8 +115,10 @@
                     app:boxCornerRadiusBottomStart="12dp"
                     app:boxCornerRadiusTopEnd="12dp"
                     app:boxCornerRadiusTopStart="12dp"
-                    app:boxStrokeColor="@color/primary_orange"
-                    app:hintTextColor="@color/primary_orange">
+                    app:boxStrokeColor="@color/input_box_stroke"
+                    app:hintAnimationEnabled="false"
+                    app:hintTextColor="@color/input_hint_color"
+                    android:textColorHint="@color/text_gray">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/et_phone_number"
@@ -141,8 +145,10 @@
                     app:boxCornerRadiusBottomStart="12dp"
                     app:boxCornerRadiusTopEnd="12dp"
                     app:boxCornerRadiusTopStart="12dp"
-                    app:boxStrokeColor="@color/primary_orange"
-                    app:hintTextColor="@color/primary_orange">
+                    app:boxStrokeColor="@color/input_box_stroke"
+                    app:hintAnimationEnabled="false"
+                    app:hintTextColor="@color/input_hint_color"
+                    android:textColorHint="@color/text_gray">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/et_vehicle_id"
@@ -169,8 +175,10 @@
                     app:boxCornerRadiusBottomStart="12dp"
                     app:boxCornerRadiusTopEnd="12dp"
                     app:boxCornerRadiusTopStart="12dp"
-                    app:boxStrokeColor="@color/primary_orange"
-                    app:hintTextColor="@color/primary_orange">
+                    app:boxStrokeColor="@color/input_box_stroke"
+                    app:hintAnimationEnabled="false"
+                    app:hintTextColor="@color/input_hint_color"
+                    android:textColorHint="@color/text_gray">
 
                     <AutoCompleteTextView
                         android:id="@+id/actv_service_type"
@@ -197,8 +205,10 @@
                     app:boxCornerRadiusBottomStart="12dp"
                     app:boxCornerRadiusTopEnd="12dp"
                     app:boxCornerRadiusTopStart="12dp"
-                    app:boxStrokeColor="@color/primary_orange"
-                    app:hintTextColor="@color/primary_orange">
+                    app:boxStrokeColor="@color/input_box_stroke"
+                    app:hintAnimationEnabled="false"
+                    app:hintTextColor="@color/input_hint_color"
+                    android:textColorHint="@color/text_gray">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/et_problem_description"
