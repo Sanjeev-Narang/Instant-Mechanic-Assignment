@@ -4,5 +4,11 @@ Instant Mechanic is an Android mechanic booking app that helps users quickly fin
 
 ## Screenshots
 
-|---|---|---|---|
-| <img src="screenshots/ss_home_screen.png" width="250" alt="Home Screen" /> | <img src="screenshots/ss_mechanic_details_01.png" width="250" alt="Mechanic Details Top" /> | <img src="screenshots/ss_mechanic_details_02.png" width="250" alt="Mechanic Details Bottom" /> | <img src="screenshots/ss_service-request.png" width="250" alt="New Service Request" /> |
+<p align="center">
+  <img src="screenshots/ss_home_screen.png" width="30%" alt="Home search and mechanic list">
+  <img src="screenshots/ss_mechanic_details_01.png" width="30%" alt="Mechanic details and services offered">
+  <img src="screenshots/ss_mechanic_details_02.png" width="30%" alt="Working hours and contact details">
+</p>
+<p align="center">
+  <img src="screenshots/ss_service-request.png" width="30%" alt="New service request form">
+</p>
